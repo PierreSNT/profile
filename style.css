@@ -1,0 +1,214 @@
+body {
+  background-color:#CBC4BA;
+  /*background-image: url("../profile/images/pierre_profile_pic_6.png");*/
+  background-image: linear-gradient(45deg, rgba(132,67,138,0.31) 21%, rgba(65,129,224,0.188) 100%), url("../profile/images/pierre_profile_pic_6.png");
+  background-position: 0% 0%, center;
+  background-repeat: repeat, repeat;
+  background-size: cover, cover;
+  font-family:'Open Sans';
+  color:#575F7D;
+  font-size:13pt;
+  line-height:1.3;
+}
+
+p {
+  font-size:12pt;
+}
+
+h1, h2, h3 {
+  font-family:'Varela Round';
+  font-weight: 700;
+  font-size:32pt;
+  line-height:1.0;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+a {
+  color:#e94a47;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#3a77bb;
+  text-decoration: none;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius:40px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/*.button {
+ display:inline-block;
+ padding:0.3em 1.2em;
+ margin:0 0.3em 0.3em 0;
+ border-radius:2em;
+ box-sizing: border-box;
+ text-decoration:none;
+ font-family:'Roboto',sans-serif;
+ font-weight:300;
+ color:#FFFFFF;
+ background-color:#4eb5f1;
+ text-align:center;
+ transition: all 0.2s;
+}*/
+/*.button :hover{
+ background-color:#4095c6;
+}
+@media all and (max-width:30em){
+.button {
+  display:block;
+  margin:0.2em auto;
+ }
+}*/
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*float: left;
+    flo*/at: top;
+    /*margin: 0 auto;*/
+  }
+
+#wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  min-height: 100vh;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  padding: 0 0 0 3.1875rem;
+
+}
+
+#main {
+  display: flex;
+  position: relative;
+  max-width: 100%;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 0;
+  flex-shrink: 0;
+  text-align: center;
+  background-color: #FFFFFF;
+
+}
+
+/*I want to make my cards full height and full width*/
+
+.card-white-left {
+  background-color: white;
+  /*padding: 40px;*/
+  /*box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);*/
+  /*border-radius: 4px;*/
+  /*margin: 20px 0px;*/
+  text-align: center;
+  float: left;
+  float: top;
+  width: 70%;
+  height: 100%;
+}
+
+.card-white-right {
+  background-color: white;
+  padding: 40px;
+  /*box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);*/
+  /*border-radius: 4px;*/
+  /*margin: 20px 0px;*/
+  align-items: center;
+  text-align: center;
+  float: right;
+  width: 35%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-full {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+@media (max-width: 1440px) {
+  /* For a screen < 1440px, this CSS will be read */
+  .card-white-right {
+    width: 35%;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-white-right {
+    width: 35%;
+  }
+
+  h1, h2, h3 {
+  font-family:'Varela Round';
+  font-weight: 700;
+  font-size:28pt;
+  line-height:1.0;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card-white-right {
+    width: 35%;
+  }
+
+  p {
+  font-size:10pt;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card-white-right {
+    width: 35%;
+  }
+
+  .list-inline > li {
+  display: inline-block;
+  padding: 10px 20px;
+  }
+
+}
