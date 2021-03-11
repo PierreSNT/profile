@@ -1,7 +1,7 @@
 body {
   background-color:#CBC4BA;
   /*background-image: url("../profile/images/pierre_profile_pic_6.png");*/
-  background-image: linear-gradient(45deg, rgba(132,67,138,0.31) 21%, rgba(65,129,224,0.188) 100%), url("../profile/images/pierre_profile_pic_6.png");
+  background-image: linear-gradient(45deg, rgba(132,67,138,0.31) 21%, rgba(65,129,224,0.188) 100%), url("../images/pierre_profile_pic_6.png");
   background-position: 0% 0%, center;
   background-repeat: repeat, repeat;
   background-size: cover, cover;
